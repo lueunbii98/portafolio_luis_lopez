@@ -2,6 +2,16 @@
     color: whitesmoke;
 }
 
+/* nav */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+}
+
 /* Gradient */
 
 .grad {
@@ -11,4 +21,34 @@
 .grad-nav {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+/* Sombreado */
+
+.shad {
+    box-shadow: 2px 2px 10px #999;
+}
+
+/* Cards */
+
+.cborder {
+    border: none;
+    box-shadow: 2px 2px 10px black;
+}
+
+.cheader-n {
+    background-color: #A5B2D9;
+}
+
+.cbody-n {
+    background-color: #e9f0f0;
+}
+
+.btn-n {
+    background-color: #0560A3;
+    border: none;
+}
+
+.btn-n:hover {
+    background-color: #489CD9;
 }

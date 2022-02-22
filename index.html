@@ -11,13 +11,17 @@
         <!-- CUSTOM CSS -->
         <link rel="stylesheet" href="css/styles.css">
 
+        <!-- ICONS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
         <title>Luis Lopez</title>
     </head>
     <body class="grad">
         <!-- MENU --> 
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark grad-nav shad">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#presentacion">Luis Lopez</a>
+              <a class="navbar-brand" href="#presentacion">Luis Lopez</a> 
+              <i class="fa-solid fa-mug-hot"></i>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -33,41 +37,53 @@
         <div class="container">
             <!-- PRESENTACIÓN -->
             <div id="presentacion" class="w-words mt-3">
-                <h1>Me presento, soy</h1>
-                <h2>Luis López</h2>
+                <h1>Me presento, me llamo Luis Lopez</h1>
+                <h3>Soy estudiante de Desarrollo de Software y amante de la tecnología, en esta página web encontraras información relacionada
+                  con algunos proyectos que he desarrollado e información de contacto.
+                </h3>
             </div>
             <!-- PROYECTOS -->
             <div id="proyectos" class="mt-5">
                 <h3 class="w-words">PROYECTOS</h3>
                 <div class="card text-center cborder mb-5">
                     <div class="card-header cheader-n">
-                      Featured
+                      <h5 class="card-title">Plataforma de Reforzamiento Academico</h5>
                     </div>
                     <div class="card-body cbody-n">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary btn-n">Go somewhere</a>
+                      <p class="card-text">Sitio Web con la finalidad de reforzar el contenido academico de niños de 3, 4 y 5 grado. 
+                        Algunas de sus funcionalidades consisten en inicio de sesion y registro, visualizacion de ranking por puntajes, 
+                        lectura de temas, juego de preguntas para estudiantes y administracion CRUD para maestros. 
+                        Este sitio fue construido con HTML, CSS, Javascript, Framework Bootstrap para el Frontend y Java-JSP para el backend.
+                      </p>
+                      <img src="img/p1.png" alt="" class="card-img rounded mx-auto d-block">
+                      <a href="https://github.com/lueunbii98/Reforzamiento_primaria-html-css-js-jsp" target="_blank" class="btn btn-primary btn-n">Ver repositorio</a>
                     </div>
                 </div>
                 <div class="card text-center cborder mb-5">
-                    <div class="card-header cheader-n">
-                      Featured
-                    </div>
-                    <div class="card-body cbody-n">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary btn-n">Go somewhere</a>
-                    </div>
+                  <div class="card-header cheader-n">
+                    <h5 class="card-title">Simulador de Bateria(Drums)</h5>
+                  </div>
+                  <div class="card-body cbody-n">
+                    <p class="card-text">Página web que simula, mediante el uso del teclas especificas, los sonidos de una bateria.
+                      Utiliza javascript para aplicar animaciones, modificacion del DOM y eventos de la página para que al momento de presionar una tecla,
+                      se reproduzca un sonido especifico.
+                      La página fue creada utilizando HTML, CSS y Javascript.
+                    </p>
+                    <img src="img/p2.png" alt="" class="card-img rounded mx-auto d-block">
+                    <a href="https://github.com/lueunbii98/drum_kit-html-css-js" target="_blank" class="btn btn-primary btn-n">Ver repositorio</a>
+                  </div>
                 </div>
                 <div class="card text-center cborder mb-5">
-                    <div class="card-header cheader-n">
-                      Featured
-                    </div>
-                    <div class="card-body cbody-n">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary btn-n">Go somewhere</a>
-                    </div>
+                  <div class="card-header cheader-n">
+                    <h5 class="card-title">Relog analógico Web</h5>
+                  </div>
+                  <div class="card-body cbody-n">
+                    <p class="card-text">Esta página simula un relog analógico mediante el uso de Javascript para obtener información de fecha y hora local.
+                       Esta página fue creada haciendo uso de HTML, CSS y Javascript.
+                    </p>
+                    <img src="img/p3.png" alt="" class="card-img rounded mx-auto d-block">
+                    <a href="https://github.com/lueunbii98/clock_html-css-js" target="_blank" class="btn btn-primary btn-n">Ver repositorio</a>
+                  </div>
                 </div>
             </div>
             <!-- SOBRE MI -->
@@ -92,8 +108,8 @@
             <div id="contacto" class="w-words mt-4">
                 <h3>CONTACTO</h3>
                 <ul>
-                    <li>Correo Electronico: lueunbii98@gmail.com</li>
-                    <li>Github: lueunbii98</li>
+                    <li>Correo Electronico: lueunbii98@gmail.com <i class="fa-solid fa-envelope"></i></li>
+                    <li>Github: <a href="https://github.com/lueunbii98" target="_blank">lueunbii98</a> <i class="fa-brands fa-github"></i></li>
                 </ul>
             </div>
         </div>

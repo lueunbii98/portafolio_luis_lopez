@@ -52,3 +52,30 @@
 .btn-n:hover {
     background-color: #489CD9;
 }
+
+/* Lista de tecnologías */
+
+.tech-list {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.tech-list ul {
+    padding-left: 0%;
+}
+
+.tech-list ul li {
+    background-color: #A5B2D9;
+    margin: 5px;
+    border-radius: 7px;
+    width: 24%;
+    list-style: none;
+    transition: all 0.75s ease;
+}
+
+.tech-list ul li:hover {
+    transform: scale(1.3);
+}
